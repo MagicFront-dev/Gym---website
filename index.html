@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crossfit Spencer</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <header class="grid1">
+        <img class="logo" src="img/logo.png"/>
+        <nav>
+            <a href="/">Strona główna</a>
+            <a href="/">Trenerzy</a>
+            <a href="/">Siłownia</a>
+            <a href="/">Grafik zajęć</a>
+            <a href="/">Kontakt</a>
+        </nav>
+    </header>
+    <main class="grid2">
+        <img class="welcome-photo" src="img/1.png"/>
+        <div class="welcome">
+            <h2>Witaj !</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime temporibus quisquam nemo numquam illo iusto earum non corporis iste, ut, et ducimus reiciendis voluptatibus eius architecto distinctio, reprehenderit voluptatum quam!</p>
+        </div>
+        <div class="coaches-header"><b>Trenerzy</b></div>
+        <div class="coaches">
+            <ul>
+                <li>
+                    <img src="img/Coach1.png"/>
+                    <p>Mike</p>
+                </li>
+                <li>
+                    <img src="img/Coach2.png"/>
+                    <p>Anthony</p>
+                </li>
+                <li>
+                    <img src="img/Coach3.png"/>
+                    <p>Thomas</p>
+                </li>
+            </ul>
+        </div>
+        <div class="gym">
+            <h2><b>Galeria</b></h2>
+            <uL class="gallery">
+                <li class="thumbnail"><img src="img/1.png" alt=""/></li>
+                <li class="thumbnail"><img src="img/2.png" alt=""/></li>
+                <li class="thumbnail"><img src="img/3.png" alt=""/></li>
+                <li class="thumbnail"><img src="img/4.png" alt=""/></li>
+            </uL>
+        </div>
+        <div class="popup hidden">
+            <button class="popup__close">X</button>
+            <img src="" alt="" class="popup__img">
+            <button class="popup__arrow popup__arrow--left"><</button>
+            <button class="popup__arrow popup__arrow--right">></button>
+        </div>
+        <div class="contact">
+            <h2><b>Kontakt</b></h2>
+            <form>
+                <input type="text" id="username" name="username" placeholder="Wpisz imię..." required>
+                <br><br>
+                <input type="email" id="email" name="email" placeholder="E-mail..." required>
+                <br><br>
+                <textarea name="question" id="question" cols="15" rows="1" placeholder="Pytania.."></textarea>
+                <br><br>
+                <input type="submit" value="Wyślij">
+            </form>
+            <address>
+                <ul>
+                    <li><img class="adress-icon" src="img/mail.png"/><b>Adres e-mail:</b><a href="mailto:kacper.chlond11@wp.pl">Kacper.chlond11@wp.pl</a></li>
+                    <li><img class="adress-icon" src="img/phone.png"/><b>Numer telefonu:</b><a href="tel:696 044 387">696 044 387</a></li>
+                    <li><img class="adress-icon" src="img/pin.png"/><b>Adres:</b>Murowana 31/8 Wrocław</li>
+                </ul>
+            </address>
+        </div>
+        <footer>
+            <img src="img/logo.png"/>
+        </footer>
+        <script src="app.js"></script>
+    </main>
+</body>
+</html>
